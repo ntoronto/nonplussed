@@ -1,0 +1,22 @@
+Fixes
+ * Handle long mouse moves by swapping on the path from last-x last-y to x y
+
+Refactoring
+ * Remove images/flomap from phase 1
+ * Move sprite stuff from controller to view
+ * Function from (Listof Tile-Value) to points
+
+Main menu
+ * Emma's design (make sprites, buttons)
+ * Tiles change after changing difficulty
+ * High scores per user
+
+Gameplay
+ * Ordered difficulty settings with detailed descriptions of operators and values
+ * Random inequality drops, probability-per-tile higher with larger discoveries
+ * Get rid of falling+sliding rules, or find a way to show it off
+
+Progression
+ * Move to next level after eliminating 100 tiles and getting target score
+ ? Three target scores like in Angry Birds
+ ? Show next target score only
